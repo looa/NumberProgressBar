@@ -4,6 +4,10 @@ int anim abc_slide_in_bottom 0x7f040002
 int anim abc_slide_in_top 0x7f040003
 int anim abc_slide_out_bottom 0x7f040004
 int anim abc_slide_out_top 0x7f040005
+int attr NumProHeight 0x7f0100ac
+int attr NumberSize 0x7f0100aa
+int attr NumberVisibility 0x7f0100ab
+int attr Numbercolor 0x7f0100a9
 int attr actionBarDivider 0x7f010015
 int attr actionBarItemBackground 0x7f010016
 int attr actionBarPopupTheme 0x7f01000f
@@ -788,6 +792,11 @@ int styleable MenuView_android_itemTextAppearance 1
 int styleable MenuView_android_verticalDivider 3
 int styleable MenuView_android_windowAnimationStyle 0
 int styleable MenuView_preserveIconSpacing 7
+int[] styleable NumberProgressBar { 0x7f0100a9, 0x7f0100aa, 0x7f0100ab, 0x7f0100ac }
+int styleable NumberProgressBar_NumProHeight 3
+int styleable NumberProgressBar_NumberSize 1
+int styleable NumberProgressBar_NumberVisibility 2
+int styleable NumberProgressBar_Numbercolor 0
 int[] styleable PopupWindow { 0x01010176, 0x7f010098 }
 int styleable PopupWindow_android_popupBackground 0
 int styleable PopupWindow_overlapAnchor 1

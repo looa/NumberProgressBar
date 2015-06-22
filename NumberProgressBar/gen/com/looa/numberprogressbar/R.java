@@ -17,6 +17,43 @@ public final class R {
         public static final int abc_slide_out_top=0x7f040005;
     }
     public static final class attr {
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int NumProHeight=0x7f0100ac;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int NumberSize=0x7f0100aa;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int NumberVisibility=0x7f0100ab;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int Numbercolor=0x7f0100a9;
         /**  Custom divider drawable to use for elements in the action bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -3723,6 +3760,86 @@ containing a value of this type.
           @attr name com.looa.numberprogressbar:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
+        /** Attributes that can be used with a NumberProgressBar.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #NumberProgressBar_NumProHeight com.looa.numberprogressbar:NumProHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #NumberProgressBar_NumberSize com.looa.numberprogressbar:NumberSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #NumberProgressBar_NumberVisibility com.looa.numberprogressbar:NumberVisibility}</code></td><td></td></tr>
+           <tr><td><code>{@link #NumberProgressBar_Numbercolor com.looa.numberprogressbar:Numbercolor}</code></td><td></td></tr>
+           </table>
+           @see #NumberProgressBar_NumProHeight
+           @see #NumberProgressBar_NumberSize
+           @see #NumberProgressBar_NumberVisibility
+           @see #NumberProgressBar_Numbercolor
+         */
+        public static final int[] NumberProgressBar = {
+            0x7f0100a9, 0x7f0100aa, 0x7f0100ab, 0x7f0100ac
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.looa.numberprogressbar.R.attr#NumProHeight}
+          attribute's value can be found in the {@link #NumberProgressBar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.looa.numberprogressbar:NumProHeight
+        */
+        public static final int NumberProgressBar_NumProHeight = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.looa.numberprogressbar.R.attr#NumberSize}
+          attribute's value can be found in the {@link #NumberProgressBar} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.looa.numberprogressbar:NumberSize
+        */
+        public static final int NumberProgressBar_NumberSize = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.looa.numberprogressbar.R.attr#NumberVisibility}
+          attribute's value can be found in the {@link #NumberProgressBar} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.looa.numberprogressbar:NumberVisibility
+        */
+        public static final int NumberProgressBar_NumberVisibility = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.looa.numberprogressbar.R.attr#Numbercolor}
+          attribute's value can be found in the {@link #NumberProgressBar} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.looa.numberprogressbar:Numbercolor
+        */
+        public static final int NumberProgressBar_Numbercolor = 0;
         /** Attributes that can be used with a PopupWindow.
            <p>Includes the following attributes:</p>
            <table>

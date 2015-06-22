@@ -11,7 +11,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		
 		//upload test
-		//2.0
+		//2.0.0
 		
 	}
 }
